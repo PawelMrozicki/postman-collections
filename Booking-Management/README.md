@@ -4,13 +4,15 @@ The Booking Management API (integral part of Sabre's Business Services) facilita
 
 ## Current Release 
 
-The services available in this API are listed below (direct link to the documentation to be added soon):
+The services available in this API are listed below:
 
 | Service | Description | Endpoint | Type |  
 |---------|-------------|----------|------|
-|[Get Booking](https://developer.sabre.com)| Normalized view of the Sabre Booking | /trip/orders/getBooking |RPC/JSON|
-|[Get Booking](https://developer.sabre.com)| Normalized view of the Sabre Booking | /trip/orders/getBooking/graphql |GraphQL|
-|[Cancel Booking](https://developer.sabre.com)| Normalized cancel of Sabre Products within a Booking| /trip/orders/cancelBooking |RPC/JSON|
+|[Get Booking](https://developer.sabre.com/docs/rest_apis/trip/orders/booking_management)| Normalized view of the Sabre Booking | /trip/orders/getBooking |RPC/JSON|
+|[Get Booking](https://developer.sabre.com/docs/rest_apis/trip/orders/booking_management)| Normalized view of the Sabre Booking | /trip/orders/getBooking/graphql |GraphQL|
+|[Cancel Booking](https://developer.sabre.com/docs/rest_apis/trip/orders/booking_management)| Normalized cancel of Sabre Products within a Booking| /trip/orders/cancelBooking |RPC/JSON|
+|[Cancel Flight Tickets](https://developer.sabre.com/docs/rest_apis/trip/orders/booking_management)| Normalized cancel(void/refund) for flight tickets and electronic miscellaneous documents (EMD)
+| /trip/orders/cancelBooking |RPC/JSON|
 
 
 This Postman collection was created to showcase Sabre APIs and provide developers the ability to test them freely.
@@ -35,7 +37,7 @@ Here are one-time steps for getting your test environment set up:
 
 * Run the Postman app on your local development machine 
 * Import the [environment file](https://github.com/SabreDevStudio/postman-collections/blob/master/Sabre-APIs/Sabre_APIs_CERT.postman_environment.json) into Postman using the File -> Import option
-* Import the [Booking Management Collection](./Booking_Management_API_v2020_04.postman_collection.json) into Postman using the File -> Import option 
+* Import the [Booking Management Collection](./Booking_Management_API_v2020.04.postman_collection.json) into Postman using the File -> Import option 
 
 ### Use Your Credentials
 
