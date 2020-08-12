@@ -11,7 +11,7 @@ The services available in this API are listed below:
 |[Get Booking](https://developer.sabre.com/docs/rest_apis/trip/orders/booking_management)| Normalized view of the Sabre Booking | /trip/orders/getBooking |RPC/JSON|
 |[Get Booking](https://developer.sabre.com/docs/rest_apis/trip/orders/booking_management)| Normalized view of the Sabre Booking | /trip/orders/getBooking/graphql |GraphQL|
 |[Cancel Booking](https://developer.sabre.com/docs/rest_apis/trip/orders/booking_management)| Normalized cancel of Sabre Products within a Booking| /trip/orders/cancelBooking |RPC/JSON|
-|[Cancel Flight Tickets](https://developer.sabre.com/docs/rest_apis/trip/orders/booking_management)| Normalized cancel(void/refund) for flight tickets and electronic miscellaneous documents (EMD)| /trip/orders/cancelBooking |RPC/JSON|
+|[Cancel Flight Tickets](https://developer.sabre.com/docs/rest_apis/trip/orders/booking_management)| Normalized cancel(void/refund) for flight tickets and electronic miscellaneous documents (EMD)| /trip/orders/cancelFlightTickets |RPC/JSON|
 
 
 This Postman collection was created to showcase Sabre APIs and provide developers the ability to test them freely.
